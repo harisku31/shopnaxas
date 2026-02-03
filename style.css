@@ -147,6 +147,19 @@ body{
   gap:10px;
 }
 
+/* ===== CARD ROBUX (BEDA WALLPAPER SAJA) ===== */
+.ml-card{
+  background-image:url("wallpaper\ ml.jpg"); /* ganti sesuai nama file */
+  border-color:gold;
+}
+
+/* ===== ROW ===== */
+.premium-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
 /* ===== FOTO KECIL ===== */
 .premium-img{
   width:56px;
@@ -202,3 +215,4 @@ body{
 .premium-btn.clicked::before{
   opacity:0;
 }
+
